@@ -249,28 +249,30 @@
             height: 144.438px;
             /* border: 2px solid black; */
         }
+
         .design {
             width: auto;
             height: 700px;
             border: 2px solid black;
-            line-height: 24px;
-            display: block;
+            line-height: 18px;
+            /* display: flex; */
             background-color: #222222;
-            display: flex;
+            display: contents;
             color: white;
-            padding: 5px;
+            padding: 0px;
             margin: 0px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
         }
-        .design2 h2{
+
+        .design2 h2 {
             text-align: center;
             font-size: 26px;
         }
 
         .design2 {
             border: 2px solid rgb(252, 252, 252);
-                    width: 345px;
+            width: 345px;
             height: 264.969px;
             background-color: whitesmoke;
             border-radius: 24px;
@@ -288,7 +290,8 @@
             align-items: center;
 
         }
-        .design2 .mail label{
+
+        .design2 .mail label {
             margin: 5px;
             color: #060707;
             /* padding: 63px 112px 1px 66px; */
@@ -296,6 +299,22 @@
             justify-content: center;
             align-items: center;
         }
+
+        .design2 button {
+            border-radius: 12px;
+            background-color: #00b6d1;
+            width: 18vw;
+            height: 11vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            padding: 0px;
+            font-size: 23px;
+            margin: 0px 0px 0px 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
         .design2 .mail input {
             margin: 5px;
             color: #00b6d1;
@@ -315,17 +334,28 @@
 
         .signup {
 
-            
+
             background-color: #222222;
             color: white;
-            padding: 193px 70px 0px 103px;
+            padding: 30px 70px 30px 100px;
             margin: 0px 0px 0px 57px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
-        .signup1 button {
+        .form1 {
+            justify-content: space-around;
+            display: flex;
+            background-color: #222222;
+            color: white;
+            padding: 30px 70px 30px 100px;
+            margin: 0px 0px 0px 57px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-            border-radius: 12px;
+
+        /* .signup1 button { */
+
+        /* border-radius: 12px;
             background-color: #00b6d1;
             width: 18vw;
             height: 11vh;
@@ -336,11 +366,11 @@
             padding: 0px;
             font-size: 23px;
             margin: 0px 0px 0px 0px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 
 
-        }
-        .signup1 button:hover{
+        /* } */
+        .signup1 button:hover {
             background-color: #7d979b8a;
         }
 
@@ -361,14 +391,16 @@
             justify-content: center;
             align-items: center;
         }
-        .botm{
+
+        .botm {
             background-color: #222222;
             color: white;
-            padding: 193px 70px 0px 103px;
+            padding: 30px 70px 30px 100px;
             margin: 5px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        .botm h2{
+
+        .botm h2 {
             margin: 5px;
             color: #edeff0;
             padding: 5px;
@@ -376,8 +408,8 @@
             justify-content: center;
             align-items: center;
         }
-        
-        .botm p{
+
+        .botm p {
             margin: 5px;
             color: #fcfcfc;
             padding: 5px;
@@ -489,29 +521,35 @@
             <p>Sign up for our newsletter and receive emails for the latest news, blogs, and special deals on UltraEdit.
             </p>
         </div>
+    </div>
+    <div class="form1">
         <div class="design2">
             <div class="mail">
                 <h2>Subscribe to our emails </h2>
                 <div class="mail1">
                     <label for="email">Enter email address</label>
                     <input type="email" id="email">
+                    <button>SIGN UP</button>
                 </div>
             </div>
-            <div class="signup1">
+            <!-- <div class="signup1">
                 <button>SIGN UP</button>
-            </div>
+            </div> -->
         </div>
         <div class="botm">
             <div class="last">
                 <h2>EXE or MSI?</h2>
-                <p>The EXE builds of our products are the preferred download for most of our users, running Windows 8.1 and later.
+                <p>The EXE builds of our products are the preferred download for most of our users, running Windows 8.1
+                    and later.
 
                     We make MSI builds available for bulk or silent deployments (command line, GPO, SCCM, etc.).
                 </p>
                 <h2>Free trial period</h2>
-                <p>This application comes with a free, fully functional 30 day trial period. After the trial period expires, you must purchase a license to continue using it.</p>
+                <p>This application comes with a free, fully functional 30 day trial period. After the trial period
+                    expires, you must purchase a license to continue using it.</p>
             </div>
         </div>
     </div>
 </body>
+
 </html>
